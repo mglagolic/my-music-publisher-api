@@ -23,7 +23,9 @@
     "Microsoft.EntityFrameworkCore": "1.1.1",
     "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.0.0",
     "Microsoft.EntityFrameworkCore.SqlServer": "1.1.1",
-    "Microsoft.EntityFrameworkCore.Tools": "1.1.0"
+    "Microsoft.EntityFrameworkCore.Tools": "1.1.0",
+    "Newtonsoft.Json": "10.0.1",
+    "Microsoft.EntityFrameworkCore.SqlServer.Design": "1.1.1"
   },
 
   "tools": {
@@ -61,5 +63,6 @@
 
   "scripts": {
     "postpublish": [ "dotnet publish-iis --publish-folder %publish:OutputPath% --framework %publish:FullTargetFramework%" ]
-  }
+  },
+  "userSecretsId": "aspnet-my-music-publisher-api-20170323123908"
 }
